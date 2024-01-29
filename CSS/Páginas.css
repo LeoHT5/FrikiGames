@@ -1,0 +1,133 @@
+body{
+    background-image: url(../Imágenes/Body_2.jpg);
+    background-size: cover;
+}
+
+/*CABEZA DE PÁGINA*/
+header a img{
+    border: 1px solid black;
+    width: 1500px;
+    height: 300px;
+}
+
+/*MENÚ*/
+nav{
+    display: flex;
+    background-color: black;
+}
+nav div{
+    background-color: darkblue;
+    border: 3px solid black;
+    border-right: 1px solid black;
+}
+nav div img{
+    width: 40%;
+}
+.nav{
+    width: 100%;
+}
+.nav tr td{
+    background-color: orange;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: auto;
+    text-align:center;
+}
+.nav tr td a{
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+}
+.nav tr td:hover{
+    background-color: rgb(37, 37, 145);
+    color: white;
+    font-style: italic;
+}
+/*MAIN ALTO*/
+h1{
+    color: aquamarine;
+    text-align: center;
+}
+
+/*MAIN*/
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+/*ASIDE*/
+aside{
+    text-align: center;
+    width: 35%;
+}
+.videos{
+    width: 60%;
+    height: 250px;
+    border: 2px solid cyan;
+    border-radius: 5px;
+}
+
+/*SECTION*/
+section{
+    width: 60%;
+}
+section img{
+    width: 160px; height: 210px;
+}
+section td a{
+    color: cyan;
+    text-decoration: none;
+    font-size: 10pt;
+}
+section td a:hover{
+    color: coral;
+}
+section table td{
+    text-align: center;
+    border: 2px solid aqua;
+}
+
+/*MAIN BAJO*/
+.cambiarpagina a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.cambiarpagina{
+    background-color: orange;
+    text-align: center;
+    width: 20px;
+    border: 1px solid black;
+}
+.cambiarpagina:hover{
+    background-color: rgb(37, 37, 145);
+    color: white;
+}
+
+/*PIE DE PÁGINA*/
+footer{
+    background-color: rgb(10, 10, 77);
+    color: white;
+    height: 280px;
+}
+footer tr td a img{
+    width: 20%;
+}
+footer tr td{
+    width: 10%;
+    font-size: 20px;
+}
+footer tr{
+    text-align: center;
+}
+.logo{
+    width: 45%;
+    display: flex;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.logo1{
+    display: flex;
+    width: 45%;
+    border: 3px solid white;
+    border-radius: 5px;
+}

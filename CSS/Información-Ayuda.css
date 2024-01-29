@@ -1,0 +1,157 @@
+body{
+    background-image: url(../Imágenes/Body_2.jpg);
+    background-size: cover;
+}
+
+/*HEADER*/
+header a img{
+    border: 1px solid black;
+    width: 1500px;
+    height: 300px;
+}
+
+/*NAV*/
+nav{
+    display: flex;
+    background-color: black;
+}
+nav div{
+    background-color: darkblue;
+    border: 3px solid black;
+    border-right: 1px solid black;
+}
+nav div img{
+    width: 40%;
+}
+.nav{
+    width: 100%;
+}
+.nav tr td{
+    background-color: orange;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: auto;
+    text-align:center;
+}
+.nav tr td a{
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+}
+.nav tr td:hover{
+    background-color: rgb(37, 37, 145);
+    color: white;
+    font-style: italic;
+}
+
+/*MAIN*/
+h1{
+    color: aquamarine;
+    text-align: center;
+}
+
+h2{
+    color:cyan;
+}
+
+details{
+    margin-left: 20px;
+    border-radius: 5px;
+    background: rgba(54, 159, 251, 0.481);
+}
+summary{
+    font-size: 20pt;
+    padding: 0.8rem;
+    display: block;
+    padding-left: 2rem;
+    position: relative;
+    cursor: pointer;
+}
+summary:before{
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+    position: absolute;
+    top: 1.1rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+}
+details[open] > summary:before{
+    transform: rotate(90deg);
+}
+.contenido{
+    background: rgba(54, 159, 251, 0.481);
+    border-radius: 5px;
+    font-size: 15pt;
+    padding: 30px;
+}
+
+main{
+    text-align: center;
+}
+
+main a{
+    text-decoration: none;
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+}
+
+main a:hover{
+    font-style: italic;
+}
+
+main table tr td{
+    width: 50%;
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-size: 20pt;
+}
+
+iframe{
+    height: 380px;
+    width: 700px;
+    border-radius: 15px;
+}
+
+/*FOOTER*/
+footer{
+    background-color: rgb(10, 10, 77);
+    color: white;
+}
+footer tr td a img{
+    width: 5%;
+}
+footer tr td{
+    width: 10%;
+    font-size: 20px;
+}
+footer tr{
+    text-align: center;
+}
+.logo1{
+    width: 24%;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.logo2{
+    width: 20%;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.logo3{
+    width: 15.5%;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.logo4{
+    width: 18.5%;
+    border: 3px solid white;
+    border-radius: 5px;
+}

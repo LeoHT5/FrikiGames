@@ -1,0 +1,122 @@
+body{
+    background-image: url(../Imágenes/Body_2.jpg);
+    background-size: cover;
+}
+
+/*HEADER*/
+header a img{
+    border: 1px solid black;
+    width: 1500px;
+    height: 300px;
+}
+
+/*NAV*/
+nav{
+    display: flex;
+    background-color: black;
+}
+nav div{
+    background-color: darkblue;
+    border: 3px solid black;
+    border-right: 1px solid black;
+}
+nav div img{
+    width: 40%;
+}
+.nav{
+    width: 100%;
+}
+.nav tr td{
+    background-color: orange;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: auto;
+    text-align:center;
+}
+.nav tr td a{
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+}
+.nav tr td:hover{
+    background-color: rgb(37, 37, 145);
+    color: white;
+    font-style: italic;
+}
+
+/*MAIN ALTO*/
+h1{
+    color: aquamarine;
+    text-align: center;
+}
+
+ /*MAIN*/
+iframe{
+    border: 2px solid rgb(0,255,255);
+    border-radius: 10px;
+}
+main ul{
+    padding: 40px;
+    font-size: 15pt;
+}
+main ul li{
+    padding: 20px 50px 20px 50px;
+    margin-bottom: 15px;
+    background-color: orange;
+    text-align: center;
+    list-style: none;
+    color: white;
+    border-radius: 5px;
+}
+main a{
+    color: white;
+    text-decoration: none;
+}
+
+#dsc1{
+    border: 2px solid rgb(0,255,255);
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+}
+#dsc2{
+    border: 2px solid rgb(0,255,255);
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+}
+#dsc3{
+    border: 2px solid rgb(0,255,255);
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+}
+
+/*FOOTER*/
+footer{
+    background-color: rgb(10, 10, 77);
+    color: white;
+    height: 310px;
+}
+footer tr td a img{
+    width: 20%;
+}
+footer tr td{
+    width: 10%;
+    font-size: 20px;
+}
+footer tr{
+    text-align: center;
+}
+.logo{
+    width: 45%;
+    display: flex;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.logo1{
+    display: flex;
+    width: 45%;
+    border: 3px solid white;
+    border-radius: 5px;
+}

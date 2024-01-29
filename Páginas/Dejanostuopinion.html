@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friki Games</title>
+    <link rel="stylesheet" href="../CSS/Dejanostuopinion.css">
+    <link rel="icon" href="../Imágenes/Icono-removebg-preview.png">
+</head>
+<body>
+    <header>
+        <a href="JuegosRecomendados1.html"><img id="banner" src="../Imágenes/header_auto_x2_auto_x2.jpg" alt=""></a>
+    </header>
+    
+    <nav>
+        <center><div><img src="../Imágenes/Icono-removebg-preview.png" alt=""></div></center>
+        <table class="nav">
+            <tr>
+                <td><a href="Categorías.html">CATEGORÍAS</a></td>
+                <td><a href="Consolas1.html">CONSOLAS</a></td>
+                <td><a href="Ofertas.html">OFERTAS</a></td>
+                <td><a href="Noticias.html">NOTICIAS</a></td>
+                <td><a href="Información-Ayuda.html">INFORMACIÓN/AYUDA</a></td>
+                <td><a href="Dejanostuopinion.html">DÉJANOS TU OPINIÓN</a></td>
+            </tr>
+        </table>
+    </nav>
+
+    <h1>¡DÉJANOS TU OPINIÓN!</h1>
+    <center>
+        <form action="" class="form" onsubmit="registrar(this)">
+
+            <div class="contenedor1">
+                <div class="inputContainer">
+                    <input type="text" name="txtapellido" class="input">
+                    <label class="label">Apellidos</label>
+                </div>
+               <div  class="inputContainer">
+                    <input type="text" name="txtnombre" class="input">
+                    <label class="label">Nombres</label>
+               </div> 
+           </div>
+
+            <div class="contenedor2 ">
+                <div class="inputContainer">
+                    <input id="email" type="text" class="input">
+                    <label class="label">Dirección</label>
+                </div>
+                <div class="inputContainer">
+                    <input id="direc" type="text" name="txtCorreo" class="input">
+                    <label class="label">Correo</label>
+                </div>
+            </div>
+              
+            <div class="contenedor3">
+                <div class="inputContainer">
+                    <label class="label1">Fecha de nacimiento</label><br>
+                    <input class="input" name="txtFechaNacimiento" type="date">
+                </div>
+                <div class="inputContainer">
+                    <label class="label1">Fecha actual</label><br>
+                    <input class="input" name="txtFechaActual" type="date">  
+                </div>    
+            </div>
+
+            <h2>¡AYÚDANOS A MEJORAR!</h2>
+            <div>
+                <h3>Escribe tu opinión</h3>
+                <textarea class="opinion" name="txtopinion"></textarea>
+            </div>  
+
+            <h2>¿Cuándo te gusta nuestra página ?</h2>
+            <h3>Puntuános</h3>
+            <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5">
+                <label class="estrellas"for="radio1">★</label>
+                <input id="radio2" type="radio" name="estrellas" value="4">
+                <label class="estrellas" for="radio2">★</label>
+                <input id="radio3" type="radio" name="estrellas" value="3">
+                <label class="estrellas" for="radio3">★</label>
+                <input id="radio4" type="radio" name="estrellas" value="2">
+                <label class="estrellas" for="radio4">★</label>
+                <input id="radio5" type="radio" name="estrellas" value="1">
+                <label class="estrellas" for="radio5">★</label>
+            </p>
+            <div class="envio">
+                <input type="submit" class="botones" value="Enviar">
+                <input type="reset"  class="botones" value="Cancelar">
+            </div>    
+       </form>
+    </center>
+    
+    <footer>
+        <center>
+            <table>
+                <br>
+                <tr>
+                    <td>Siguenos en:</td>
+                    
+                    <td>Nuestra Ubicación:</td>
+                    
+                    <td>Creadores:</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=""><img src="../Imágenes/facebook.png" alt=""></a>
+                        <a href=""><img src="../Imágenes/twitter.png" alt=""></a>
+                        <a href=""><img src="../Imágenes/youtube.png" alt=""></a>
+                    </td>
+                    
+                    <td>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.7364142077104!2d-77.0329198!3d-12.061648199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c99d3649e85d%3A0x970a9af451922618!2sFreddy%20Games!5e0!3m2!1ses-419!2spe!4v1655238752753!5m2!1ses-419!2spe" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </td>
+    
+                    <td>
+                        -Morales Bocanegra Harold Leonardo 
+                        <br><br>
+                        -Inga Guerrero Eduardo Francisco
+                        <br><br>
+                        -Huaraca Tiburcio Leonardo Vicente
+                        <br><br>
+                        -Muñoz Sánchez José Santos
+                    </td>
+    
+                    <td>
+                        <center>
+                        <img class="logo1" src="../Imágenes/PS4(1).png" alt="">
+                        <br>
+                        <img class="logo1" src="../Imágenes/PS5(1).png" alt="">
+                        <br>
+                        <img class="logo" src="../Imágenes/XBOX(1).png" alt="">
+                        <br>
+                        <img class="logo1" src="../Imágenes/XBOXONE(1).png" alt="">
+                        </center>
+                    </td>
+                </tr>
+            </table>
+            <br><br>
+        </center>
+    </footer>
+</body>
+</html>
+<script src="../js/DejanosTuOpinion.js"></script>
+<script src="../js/Banners.js"></script>
